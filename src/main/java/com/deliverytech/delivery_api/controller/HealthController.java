@@ -30,7 +30,6 @@ public class HealthController {
         );
     }
 
-    // Record do Java 14+
     public record AppInfo(
         String application,
         String version,
